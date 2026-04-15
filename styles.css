@@ -95,6 +95,11 @@ body::before {
   text-transform: uppercase;
 }
 
+.brand-flag {
+  font-size: 1.15em;
+  line-height: 1;
+}
+
 .brand-logo {
   display: block;
   width: auto;
