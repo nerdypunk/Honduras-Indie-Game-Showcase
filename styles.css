@@ -346,6 +346,24 @@ body::before {
   background: linear-gradient(90deg, transparent, rgba(130, 184, 255, 0.45), transparent);
 }
 
+.promo-video-section {
+  padding-top: 8px;
+}
+
+.promo-video-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.promo-video {
+  width: min(100%, 880px);
+  display: block;
+  border: 2px solid var(--line);
+  border-radius: 28px;
+  background: #02060d;
+  box-shadow: var(--shadow);
+}
+
 .game-card {
   display: flex;
   flex-direction: column;
