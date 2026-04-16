@@ -571,6 +571,24 @@ body::before {
   font-size: 1.08rem;
 }
 
+.partners-subtitle {
+  margin: 0 auto;
+  max-width: 60ch;
+}
+
+.partners-subtitle a,
+.contact-card a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+.partners-subtitle a:hover,
+.partners-subtitle a:focus-visible,
+.contact-card a:hover,
+.contact-card a:focus-visible {
+  color: var(--text);
+}
+
 .closer-section {
   padding-top: 40px;
 }
@@ -606,6 +624,23 @@ body::before {
   width: min(320px, 80vw);
   height: auto;
   object-fit: contain;
+}
+
+.contact-section {
+  padding-top: 8px;
+}
+
+.contact-card {
+  padding: 18px 22px;
+  text-align: center;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.contact-card p {
+  margin: 0;
+  color: var(--muted);
 }
 
 .site-footer {
